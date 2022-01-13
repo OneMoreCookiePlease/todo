@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Todo.Data;
 
-namespace Todo.Data.Migrations
+namespace Todo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211215170517_addUserId")]
-    partial class addUserId
+    [Migration("20211218004602_what")]
+    partial class what
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
